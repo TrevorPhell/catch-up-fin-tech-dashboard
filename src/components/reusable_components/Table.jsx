@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Table = ({ headers, rows }) => {
+const Table = ({ headers, rows, className }) => {
   return (
-    <table className="w-full">
+    <table className={`w-full ${className}`}>
       <thead>
         <tr>
           {headers.map((header, index) => (

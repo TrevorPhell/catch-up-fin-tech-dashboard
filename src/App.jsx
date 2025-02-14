@@ -1,11 +1,12 @@
 
 import TransferFundsForm from './form/TransferFundsForm'
+import Dashboard from './screens/Dashboard'
 
 function App() {
 
   return (
     <>
-    <TransferFundsForm />
+    <Dashboard />
     </>
   )
 }
